@@ -1,0 +1,63 @@
+body {
+    background-color: #984343;
+    margin: 0;
+}
+
+.container {
+    width: 560px;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    font-size: 36px;
+    color: white;
+}
+
+.numbers {
+    width: 100%;
+    background: white;
+}
+
+.left-numbers {
+    padding-left: 20px;
+    float: left;
+}
+
+.right-numbers {
+    padding-right: 20px;
+    float: right;
+}
+
+
+/*.random-num{
+    border-radius: 50%;
+    background: #f6b523;
+
+}*/
+
+.bricks ul {
+    margin: 0;
+    padding: 0;
+}
+
+.bricks ul li {
+    list-style: none;
+    height: 140px;
+    width: 140px;
+    float: left;
+    padding: 0;
+        background-color: #d2c481;
+    border: 1px solid #9c8519;
+    cursor: pointer;
+}
+
+
+.bricks ul li:active {
+    background: #9c8519;
+}
+
+.clear {
+    clear: both;
+}
